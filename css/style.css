@@ -82,18 +82,18 @@ img{
 .btn{
     display: inline-block;
     padding: 1rem 2rem;
-    background: transparent;
+    /* background: transparent;
     border: 1px solid var(--secondary-color);
-    font-family: Arial, sans-serif;
-    font-size: 1rem;
+    font-family: inherit;
+    font-size: inherit;
     cursor: pointer;
-    transition: background 0.4s ease;
+    transition: background 0.4s ease; */
 }
 
-.btn:hover{
+/* .btn:hover{
     background-color: var(--secondary-color);
     color: #fff;
-}
+} */
 
 .section-heading{
     font-size: 1.8rem;
