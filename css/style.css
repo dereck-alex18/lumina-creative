@@ -84,9 +84,8 @@ img{
     padding: 1rem 2rem;
     background: transparent;
     border: 1px solid var(--secondary-color);
-    font-family: inherit;
-    font-size: inherit;
     cursor: pointer;
+    line-height: 1.5;
     transition: background 0.4s ease;
 }
 
