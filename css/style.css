@@ -6,7 +6,7 @@
 
 :root{
     --primary-color: #fcf5e9;
-    --secondary-color: #2e2c2d;
+    --secondary-color: rgb(46, 44, 45);
     --container-normal: 1100px;
     --container-wide: 1400px;
     --container-narrow: 900px;
@@ -82,18 +82,18 @@ img{
 .btn{
     display: inline-block;
     padding: 1rem 2rem;
-    background: transparent;
+    background-color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
-    /* font-family: inherit;
+    font-family: inherit;
     font-size: inherit;
     cursor: pointer;
-    transition: background 0.4s ease; */
+    color: #fff;
+    transition: background 0.4s ease;
 }
 
-/* .btn:hover{
-    background-color: var(--secondary-color);
-    color: #fff;
-} */
+.btn:hover{
+    background-color: rgba(46, 44, 45, 0.8);
+}
 
 .section-heading{
     font-size: 1.8rem;
