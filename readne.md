@@ -1,1 +1,0 @@
-## simple photography agency website in pure html and css
