@@ -201,6 +201,7 @@ img{
     font-size: inherit;
     font-family: inherit;
     width: 100%;
+    resize: none;
   }
 
 .form-item textarea{
@@ -209,6 +210,11 @@ img{
 
 .form-item button{
     width: 100%;
+}
+
+.error{
+    color: #fa1010;
+    font-size: 0.8rem;
 }
 
 .footer{
